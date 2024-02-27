@@ -1,0 +1,34 @@
+.card {
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin: 40px;
+}
+
+.card-pizza {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.card_laranja {
+    background-color: #da582f;
+}
+.card_rosa_pastel {
+    background-color: #f50679;
+}
+.card_pessego {
+    background-color: #cab195;
+}
+.card_marrom{
+    background-color: #ff8471;
+}
+.card_amarelo{
+    background-color: #fffb00;
+}
+
+.card_bisque {
+    background-color: bisque;
+}

@@ -1,0 +1,28 @@
+.cards {
+    display: flex;
+    gap: 96px;
+    margin-left: 96px;
+}
+
+.cards2 {
+    padding-bottom: 75px;
+}
+
+.img_pizza {
+    width: 150px;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .cards {
+        flex-direction: column;
+    }
+}
+
+.cardapio {
+    padding-left: 43%;
+    font-size: 48px;
+    font-family: var(--font-merienda);
+    line-height: 72px;
+    padding-bottom: 50px;
+}

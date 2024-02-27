@@ -1,0 +1,30 @@
+.Localiza {
+    display: flex;
+    align-items: center;
+    background-color: var(--cor-branca);
+    border: 5px black solid;
+    border-radius: 3px;
+}
+
+.card-localiza {
+    width: 90%;
+    padding-left: 50px;
+}
+
+.img-localiza {
+    flex-basis: 40%; 
+    width: 60%;
+}
+
+@media (max-width: 600px) {
+    .img-localiza {
+        flex-basis: 5%;
+        width: 25%;
+    }
+}
+
+.text-localiza {
+    flex-basis: 60%; 
+    padding-left: 100px; 
+    text-align: center;
+}

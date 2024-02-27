@@ -1,0 +1,18 @@
+footer {
+    background-color: var(--cor-preto);
+    color: var(--cor-branca);
+    height: 90px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.rodape div {
+    text-align: center;
+    padding-top: 35px;
+}
+
+
